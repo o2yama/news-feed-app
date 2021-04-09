@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:news_feed/screens/home_page.dart';
+import 'package:news_feed/screens/home_page_model.dart';
 import 'package:news_feed/style.dart';
 
 const int _PrimaryValue = 0xFFA8EA8C;
@@ -20,6 +21,8 @@ const MaterialColor customSwatch = const MaterialColor(
     900: Color(0xFF7DDB5C),
   },
 );
+
+final homePageModel = ChangeNotifierProvider((ref) => HomePageModel());
 
 void main() {
   runApp(ProviderScope(child: MyApp()));
