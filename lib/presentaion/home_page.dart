@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
                 icon: const Icon(Icons.list),
               ),
               const BottomNavigationBarItem(
-                label: 'このアプリについて',
+                label: 'アプリ紹介',
                 icon: const Icon(Icons.fiber_new_sharp),
               ),
             ],

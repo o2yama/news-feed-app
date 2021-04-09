@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:news_feed/presentaion/home_page.dart';
 import 'package:news_feed/presentaion/home_page_model.dart';
 import 'package:news_feed/presentaion/news_list_page/news_list_model.dart';
-import 'presentaion/news_list_page/category_list_model.dart';
 
 const MaterialColor customSwatch = const MaterialColor(
   0xFFA4C639,
@@ -22,7 +21,6 @@ const MaterialColor customSwatch = const MaterialColor(
 );
 
 final homePageModel = ChangeNotifierProvider((ref) => HomePageModel());
-final categoryListModel = ChangeNotifierProvider((ref) => CategoryListModel());
 final newsListModel = ChangeNotifierProvider((ref) => NewsListModel());
 
 void main() {
