@@ -36,11 +36,3 @@ flutter:
 
   assets:
     - assets/images/
-
-fonts:
-  - family: Regular
-    fonts:
-      - assets: assets/fonts/NewTegomin-Regular.ttf
-  - family: Bold
-    fonts:
-      - assets: assets/fonts/RocknRollOne-Regular.ttf
