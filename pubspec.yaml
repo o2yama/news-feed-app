@@ -1,0 +1,46 @@
+name: news_feed
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  dynamic_theme: ^1.0.1
+  shared_preferences: ^0.5.12+4
+  flutter_riverpod: 0.12.4
+  uuid: ^2.2.2
+  flutter_launcher_icons: ^0.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "#3EFFAC"
+  adaptive_icon_foreground:  "assets/images/icon.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+fonts:
+  - family: Regular
+    fonts:
+      - assets: assets/fonts/NewTegomin-Regular.ttf
+  - family: Bold
+    fonts:
+      - assets: assets/fonts/RocknRollOne-Regular.ttf
